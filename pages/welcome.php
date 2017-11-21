@@ -1,3 +1,6 @@
+<?php
+   include('session.php');
+?>
 <!DOCTYPE html>
 <!--
 Template Name: Lacegant
@@ -68,11 +71,10 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
-      <!-- ################################################################################################ -->
-      <h1>Noticias      </h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus magna tellus, malesuada sit amet iaculis id, malesuada a elit. Sed pharetra, sem ac venenatis faucibus, dolor mauris venenatis odio, vitae volutpat elit ipsum et tortor. Phasellus a porta turpis. Fusce eros tortor, congue sed lacinia sed, ultrices non nibh. Suspendisse rhoncus libero at lectus mollis faucibus. Duis viverra lectus sit amet enim facilisis fermentum. Morbi odio nulla, convallis at tempus a, aliquet vel neque. Vivamus egestas molestie sapien at dignissim. Vivamus in lorem vel nunc porttitor sodales ut eu nisl. Sed ac blandit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nibh tristique, maximus arcu a, auctor ex. Sed a tortor quis felis blandit suscipit sed vitae nisi. Ut tristique nisi ac nisi luctus, eu tempus mi porttitor.</p>
-      <p>Ut ornare pulvinar ex, ac imperdiet erat mattis vel. Aenean mollis semper iaculis. Phasellus gravida a velit at blandit. Quisque finibus quis elit hendrerit porta. Ut orci enim, elementum in ultrices ac, mollis vel ante. Morbi bibendum lectus sed diam accumsan, sit amet porta nisi iaculis. Phasellus non odio purus. Integer ac elementum nibh. Donec interdum vestibulum cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel euismod dui. Sed id convallis ante. Aliquam sit amet sapien sed ante tristique condimentum. Pellentesque viverra erat augue.</p>
-      <p>Integer sed tellus a metus mollis pharetra. Quisque fringilla nec mi quis commodo. Proin quis dignissim elit, at finibus sem. In ut metus turpis. Suspendisse nec diam fermentum, ultrices sem id, euismod tortor. Ut in lobortis tortor. Mauris pharetra tristique erat sed blandit. Cras auctor et magna ut suscipit. In ultrices porttitor turpis, nec fermentum ante porttitor at. Donec et bibendum eros, sit amet malesuada ligula. Fusce malesuada mi mi, sed pellentesque ipsum tincidunt ut. Donec sit amet ultricies lorem, tincidunt sollicitudin nisl. Pellentesque bibendum, velit nec lacinia rhoncus, diam velit sagittis lectus, a tempor justo lacus sed ligula. Aenean vel sem a ipsum pharetra vehicula. Donec et pellentesque quam.</p>
+      <!-- ################################################################################################ -->      
+
+      <h1>Bienvenido <?php echo $login_session; ?></h1> 
+      <h2><a href = "logout.php">Salir</a></h2>
       <p>
         <footer id="footer" class="hoc clear">
           <!-- ################################################################################################ -->
