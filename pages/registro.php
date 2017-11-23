@@ -1,8 +1,15 @@
 <?php
+<<<<<<< HEAD
 $db_host="mysql7002.site4now.net:3306";
 $db_user="litcl4wv_valida";
 $db_password="ysGMhg3RcZQZZuvkmEhM";
 $db_name="litcl4wv_validacion";
+=======
+$db_host="localhost";
+$db_user="root";
+$db_password="HalfCabFlip180";
+$db_name="validacion";
+>>>>>>> a6d354774fe64fd2c81ac0bba68df60e864518c0
 $db_table_name="users";
    $db_connection = mysql_connect($db_host, $db_user, $db_password);
  
